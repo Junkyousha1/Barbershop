@@ -6,8 +6,28 @@
 }
 .global-header {
     background-color: #333;
+    display: flex;
 }
 
+.nav-container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-container {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.global-header .main-navigation ul {
+    display: flex;
+    width: 405px;
+    justify-content: space-between  ;
+    list-style-type: none;
+}
 .global-header .main-navigation a:link,
 .global-header .main-navigation a:visited {
     color: var(--link-color);
